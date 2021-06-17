@@ -1,0 +1,19 @@
+.heading {
+    text-align: center;
+}
+
+.signIn {
+    font-family: calibri;
+    font-size: 25px;
+    color: black;
+}
+
+.userPass {
+    font-family: Arial;
+    color: #c2c2c2;
+    font-size: 18px;
+}
+
+.signInButton {
+    color: #c2c2c2;
+}
