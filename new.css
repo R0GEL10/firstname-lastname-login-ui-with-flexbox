@@ -1,27 +1,49 @@
-#SignInBox {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
+.flex-container {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 350px;
+    box-shadow: 10px 10px 30px 9px rgba(0, 0, 0, 0.44);
+    border-radius: 25px;
 }
 
-.heading {
+.signIn {
+    text-align: center;
+    margin: auto;
     font-family: calibri;
     font-size: 25px;
     color: black;
-    text-align: center;
 }
 
-.userPass {
+.userName {
+    text-align: center;
+    margin: auto;
     font-family: Arial;
     color: #c2c2c2;
     font-size: 18px;
+    text-decoration: underline;
+}
+
+.userPass {
     text-align: center;
+    margin: auto;
+    font-family: Arial;
+    color: #c2c2c2;
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 .signInButton {
+    background-color: #41b1b8;
+    text-align: center;
+    margin: auto;
     font-family: calibri;
-    color: #c2c2c2;
-    font-size: 13px;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
 }
