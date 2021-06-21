@@ -24,7 +24,6 @@
     font-family: Arial;
     color: #c2c2c2;
     font-size: 18px;
-    text-decoration: underline;
 }
 
 .userPass {
@@ -33,7 +32,6 @@
     font-family: Arial;
     color: #c2c2c2;
     font-size: 18px;
-    text-decoration: underline;
 }
 
 .signInButton {
@@ -44,6 +42,6 @@
     color: #ffffff;
     font-size: 15px;
     border-radius: 20px;
-    height: 30px;
+    height: 40px;
     width: 200px;
 }
