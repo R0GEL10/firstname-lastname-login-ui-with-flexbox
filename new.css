@@ -1,47 +1,47 @@
-.flex-container {
-    display: flex;
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    height: 350px;
-    width: 350px;
-    box-shadow: 10px 10px 30px 9px rgba(0, 0, 0, 0.44);
-    border-radius: 25px;
-}
-
-.signIn {
-    text-align: center;
-    margin: auto;
-    font-family: calibri;
-    font-size: 25px;
-    color: black;
-}
-
-.userName {
-    text-align: center;
-    margin: auto;
-    font-family: Arial;
-    color: #c2c2c2;
-    font-size: 18px;
-}
-
-.userPass {
-    text-align: center;
-    margin: auto;
-    font-family: Arial;
-    color: #c2c2c2;
-    font-size: 18px;
-}
-
-.signInButton {
-    background-color: #41b1b8;
-    text-align: center;
-    margin: auto;
-    font-family: calibri;
-    color: #ffffff;
-    font-size: 15px;
-    border-radius: 20px;
-    height: 40px;
-    width: 200px;
-}
+            .flex-container {
+                border-radius: 25px;
+                height: 350px;
+                width: 350px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 15em auto;
+                font-size: 20px;
+                border-radius: 2em;
+                box-shadow: 10px 10px 30px 9px rgba(0, 0, 0, 0.44);
+            }
+            
+            .signIn {
+                /*padding-top: 40px;*/
+                align-items: center;
+                font-family: calibri;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            
+            .uName {
+                text-align: center;
+                margin: auto;
+                font-family: Arial;
+                color: #c2c2c2;
+                font-size: 18px;
+            }
+            
+            .uPass {
+                text-align: center;
+                margin: auto;
+                font-family: Arial;
+                color: #c2c2c2;
+                font-size: 18px;
+            }
+            
+            .signInButton {
+                background-color: #41b1b8;
+                text-align: center;
+                font-family: calibri;
+                color: #ffffff;
+                font-size: 16px;
+                border-radius: 20px;
+                height: 40px;
+                width: 200px;
+            }
