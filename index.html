@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1 class="test">Hello World!</h1>
+    <div class="container">
+        <div class="card">
+            <h1 class="signIn">Sign in</h1>
+            <div class="uName">
+                <!-- <label for="uName">Username:</label> -->
+                <input type="text" placeholder="username" name="uName" required>
+            </div>
+
+            <div class="uPass">
+                <!--<label for="uPass">Password:</label>-->
+                <input type="password" placeholder="password" name="uPass" required>
+                <!--input type "password" makes it so text is masked by dots-->
+            </div>
+            <div class="signInButton">
+                <button class="signInButton">Sign in</button>
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>
