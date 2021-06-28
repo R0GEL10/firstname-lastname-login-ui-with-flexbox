@@ -25,22 +25,25 @@ body {
     box-shadow: 10px 10px 25px 9px rgba(0, 0, 0, 0.116);
 }
 
-.signIn {
+h1 {
     font-size: 25px;
     font-weight: bold;
     font-family: calibri;
     text-align: center;
 }
 
-.uName {
+.container input {
     margin: auto;
 }
 
-.uPass {
-    margin: auto;
+.container input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 3px solid #5c5c5c;
+    background: transparent;
 }
 
-.signInButton {
+.button {
     background-color: #2499e7ed;
     border-style: hidden;
     font-family: calibri;
@@ -51,3 +54,18 @@ body {
     width: 200px;
     margin: auto;
 }
+
+.container input[type="text"],
+input[type="password"]:focus {
+    outline: none;
+}
+
+
+/* :focus outline:none- removes box when text is entered in username/password fields..*/
+
+.button:hover {
+    background-color: #183FB4;
+}
+
+
+/* :hover changes color of button when mouse is over it */
