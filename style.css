@@ -17,12 +17,14 @@ body {
     border-radius: 25px;
     border-color: rgba(0, 0, 0, 0.3);
     background-color: rgba(0, 0, 0, 0.05);
-    min-width: 30%;
-    min-height: 35%;
+    width: 30%;
+    height: 35%;
+    min-width: 250px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     border-radius: 1.5em;
-    box-shadow: 10px 10px 25px 9px rgba(0, 0, 0, 0.116);
+    box-shadow: 10px 10px 25px 9px rgba(0, 0, 0, 0.290);
 }
 
 h1 {
@@ -58,14 +60,17 @@ input[type="password"] {
 .container input[type="text"],
 input[type="password"]:focus {
     outline: none;
+    /* :focus outline:none- removes box when text is entered in username/password fields..*/
 }
-
-
-/* :focus outline:none- removes box when text is entered in username/password fields..*/
 
 .button:hover {
     background-color: #183FB4;
+    /* :hover changes color of button when mouse is over it */
 }
 
-
-/* :hover changes color of button when mouse is over it */
+form {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    justify-content: center;
+}
